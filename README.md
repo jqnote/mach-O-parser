@@ -2,6 +2,8 @@
 
 This is my attempt to write a tool-set that would emulate the functionality of 'otool' in Python.
 
+**[05/05/2015] FAT binary support, with CPU and CPU Subtype identification**
+
 ```
 (mach-O-parser)┌[rotlogix@partygoblin] [/dev/ttys000]
 └[~/Development/python/mach-O-parser]> python mach-0-parser.py NSUserDefaultsExample
@@ -17,4 +19,5 @@ Magic	CPU	CPU Subtype
 ---------------------------------------------------------------------------
 Magic	CPU	CPU Subtype
 -----	---	------------------
+64	ARM	CPU_SUBTYPE_ARM_V7
 ```
